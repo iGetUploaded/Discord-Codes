@@ -1,4 +1,4 @@
-const { Client, Collection } = require("discord.js");
+const { Client, Collection } = require("discord.js"); //This is version 13 
 
 
 client.on('messageCreate', async message => {
