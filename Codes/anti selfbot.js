@@ -14,6 +14,6 @@ client.on("messageCreate", (message) => {
     message.delete().catch(console.warn);
     message.member.kick().catch(console.warn); //kick the selfbot 
     // Mute the member
-    // message.member.roles.add("811974397899833394").catch(console.warn);
+    // message.member.roles.add("811974397899833394").catch(console.warn); //Put your mute role ID HERE
 
   } 
