@@ -18,20 +18,19 @@ client.on("ready", () => {
     //-------
 
     const backslash = String.raw` \ `;
-    const prefix = "/, !";
+    const prefix = "/, !"; //put your prefix(s) here
 
 
     console.log(``);
-    console.log(green(`                                                     Oblivion`));
+    console.log(green(`                                                     `)); //Put your Bot Name here
     console.log(``);
     console.log(``);
     console.log(yellow('               + ================================================================================== +'));
     console.log(cyan(`                                [i] :: ${prefix}help                     :: Displays commands.                   `));
     console.log(cyan(`                                [i] :: ${prefix}ping                     :: Displays bots ping.                  `));
     console.log(yellow('               + ================================Commands========================================== +'));
-    console.log(cyan(`                       Author   [i] :: Programmed by Poptart        :: © 2021 Development                   `));
+    console.log(cyan(`                       Author   [i] :: Programmed by [Your name here]        :: © 2021 Development                   `));
     console.log(cyan(`                       Bot info [i] :: Status                       :: ✅ Online                           `));
-    console.log(cyan(`                   Scam Protect [i] ::                              :: Loaded                               `));
     console.log(cyan(`                       Users    [i] ::                              :: ${client.users.cache.size}  Users   `));
     console.log(cyan(`                       Guilds   [i] ::                              :: ${client.guilds.cache.size} Guilds  `));
     console.log(cyan(`                       Channels [i] ::                              :: ${client.channels.cache.size} Channles`));
