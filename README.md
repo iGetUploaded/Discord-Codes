@@ -3,6 +3,8 @@
 ## How To Use Anti Selfbot & Anti Scam Links
 For the Anti Scam and Anti Selfbot just put those right in your index.js
 
+If you are still getting scam links trying adding them to the scam.json file
+
 
 ## How to Use Custom Ready Events(Command Handler Only)
 Make sure to have chalk installed //npm i chalk
