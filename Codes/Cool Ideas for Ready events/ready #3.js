@@ -3,7 +3,7 @@ const chalk = require('chalk') //Chalk Package
 const { prefix } = require('../../config.json') //If your prefix is in here then do this
 
 client.on("ready", () => {
-  client.user.setActivity(` !`, { type: 'LISTENING' })
+  client.user.setActivity( { type: 'LISTENING' }) 
 
 client.on("ready", async () => {
   console.log(chalk.green.bold("Success!"))
