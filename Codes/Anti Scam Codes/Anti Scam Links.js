@@ -1,3 +1,4 @@
+//ANTI SCAM LINKS
 client.on('messageCreate', async message => {
     const array = require(`./scam.json`)
     if(array.includes(message.content)) {
